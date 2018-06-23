@@ -1,0 +1,10 @@
+{
+    "buildCommand": "zip release/wildberries-extended-filters-${src.tagName}.zip manifest.json dist/",
+    "github": {
+      "release": true,
+      "assets": "release/*"
+    },
+    "npm": {
+        "publish": false
+    }
+  }

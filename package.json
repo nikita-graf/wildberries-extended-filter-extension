@@ -1,12 +1,12 @@
 {
   "name": "wildberries-select-all",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "",
   "main": "inject-select-all.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./index.js --mode production",
-    "release": "release-it --dry-run"
+    "release": "release-it"
   },
   "author": "",
   "license": "ISC",
