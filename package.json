@@ -1,6 +1,6 @@
 {
   "name": "wildberries-extended-filters",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "inject-select-all.js",
   "scripts": {
