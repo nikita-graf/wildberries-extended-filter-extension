@@ -1,5 +1,5 @@
 {
-    "buildCommand": "zip release/wildberries-extended-filters-${src.tagName}.zip manifest.json dist/",
+    "buildCommand": "npm run clean && npm run pack && mkdir release && cp extension.zip release/wildberries-extended-filters-${version}.zip",
     "github": {
       "release": true,
       "assets": "release/*"

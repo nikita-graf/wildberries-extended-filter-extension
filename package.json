@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack ./index.js --mode production",
+    "clean": "rm -rf build extension.zip release",
+    "pack": "npm run build && zip extension.zip manifest.json dist/*",
     "release": "release-it"
   },
   "author": "",
