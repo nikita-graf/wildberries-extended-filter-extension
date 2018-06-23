@@ -1,0 +1,11 @@
+{
+    "name": "Wildberries - Кнопка Выбрать все",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["https://*.wildberries.ru/catalog/*"],
+          "js": ["dist/main.js"]
+        }
+      ]
+  }
