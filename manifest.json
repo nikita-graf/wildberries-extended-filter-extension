@@ -1,5 +1,5 @@
 {
-    "name": "Wildberries - Кнопка Выбрать все",
+    "name": "Расширенные фильтры Wildberries",
     "version": "0.1",
     "manifest_version": 2,
     "content_scripts": [
